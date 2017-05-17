@@ -1,6 +1,6 @@
 {
   "name": "synergy/solarium-module",
-  "description": "Zend Framework 3 integration with solarium solr search client client",
+  "description": "Zend Framework 3 integration with solarium solr search client",
   "keywords": [
     "zf3",
     "solr",
