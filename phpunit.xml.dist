@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit bootstrap="tests/Bootstrap.php" colors="true" backupGlobals="false" backupStaticAttributes="false">
+<phpunit bootstrap="tests/SynergySolariumTest/Bootstrap.php" colors="true" backupGlobals="false" backupStaticAttributes="false">
 
     <testsuites>
         <testsuite name="Synergy Solarium Test">
@@ -8,8 +8,8 @@
     </testsuites>
     <php>
         <includePath>tests</includePath>
-        <includePath>../../vendor</includePath>
-        <includePath>../../src</includePath>
+        <includePath>./vendor</includePath>
+        <includePath>./src</includePath>
     </php>
     <filter>
         <whitelist>

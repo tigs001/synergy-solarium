@@ -22,7 +22,7 @@ set_include_path(
     )
 );
 
-$classList = include __DIR__ . "/../autoload_classmap.php";
+$classList = include __DIR__ . "/../../autoload_classmap.php";
 
 spl_autoload_register(
     function ($class) use ($classList, $basePath) {
@@ -81,7 +81,7 @@ class Bootstrap
         ];
 
 
-        include __DIR__ . '/../init_autoloader.php';
+        include __DIR__ . '/../../init_autoloader.php';
 
         /** @var \Zend\Mvc\Application $app */
         $app = Application::init($config);
@@ -105,7 +105,7 @@ class Bootstrap
     protected static function findParentPath($path)
     {
         $dir = __DIR__;
-        $srcDir = realpath($dir . '/../../');
+        $srcDir = realpath($dir . '/../../../');
 
         return $srcDir . '/' . $path;
     }
