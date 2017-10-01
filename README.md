@@ -1,5 +1,8 @@
-[![Build Status](https://travis-ci.org/odiaseo/SolariumModule.svg?branch=master)](https://travis-ci.org/odiaseo/SolariumModule)
-[![Coverage Status](https://coveralls.io/repos/github/odiaseo/SolariumModule/badge.svg?branch=master)](https://coveralls.io/github/odiaseo/SolariumModule?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/synergy/solarium-module/v/stable)](https://packagist.org/packages/synergy/solarium-module)
+[![Total Downloads](https://poser.pugx.org/synergy/solarium-module/downloads)](https://packagist.org/packages/synergy/solarium-module)
+[![Build Status](https://travis-ci.org/odiaseo/synergy-solarium.svg?branch=master)](https://travis-ci.org/odiaseo/synergy-solarium)
+[![Coverage Status](https://coveralls.io/repos/github/odiaseo/synergy-solarium/badge.svg?branch=master)](https://coveralls.io/github/odiaseo/synergy-solarium?branch=master)
+[![composer.lock](https://poser.pugx.org/synergy/solarium-module/composerlock)](https://packagist.org/packages/synergy/solarium-module)
 
 # SynergySolarium module
 
