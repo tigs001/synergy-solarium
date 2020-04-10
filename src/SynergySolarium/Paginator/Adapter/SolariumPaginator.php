@@ -2,7 +2,7 @@
 
 namespace SynergySolarium\Paginator\Adapter;
 
-use Zend\Paginator\Adapter\AdapterInterface;
+use Laminas\Paginator\Adapter\AdapterInterface;
 use Solarium\Client;
 use Solarium\QueryType\Select\Query\Query;
 

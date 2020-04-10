@@ -2,8 +2,8 @@
 
 namespace SynergySolariumTest;
 
-use Zend\Mvc\ModuleRouteListener;
-use Zend\Mvc\MvcEvent;
+use Laminas\Mvc\ModuleRouteListener;
+use Laminas\Mvc\MvcEvent;
 
 /**
  * Class Module
@@ -13,7 +13,7 @@ class Module
 {
     public function onBootstrap(MvcEvent $event)
     {
-        /** @var $eventManager \Zend\EventManager\EventManager */
+        /** @var $eventManager \Laminas\EventManager\EventManager */
         $eventManager = $event->getApplication()->getEventManager();
         $moduleRouteListener = new ModuleRouteListener();
         $moduleRouteListener->attach($eventManager);
@@ -27,7 +27,7 @@ class Module
     public function getAutoloaderConfig()
     {
         return array(
-            'Zend\Loader\StandardAutoloader' => array(
+            'Laminas\Loader\StandardAutoloader' => array(
                 'namespaces' => array(
                     __NAMESPACE__ => __DIR__ . '/src/' . __NAMESPACE__,
                 ),

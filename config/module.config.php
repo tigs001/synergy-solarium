@@ -16,11 +16,11 @@ return array(
 
     'view_manager' => array(
         'template_map' => array(
-            'zend-developer-tools/toolbar/solarium-requests' => __DIR__ . '/../view/zend-developer-tools/toolbar/solarium-requests.phtml',
+            'laminas-developer-tools/toolbar/solarium-requests' => __DIR__ . '/../view/laminas-developer-tools/toolbar/solarium-requests.phtml',
         ),
     ),
 
-    'zenddevelopertools' => array(
+    'laminas-developer-tools' => array(
         'profiler' => array(
             'collectors' => array(
                 'solarium' => 'solarium.collector',
@@ -28,7 +28,7 @@ return array(
         ),
         'toolbar' => array(
             'entries' => array(
-                'solarium' => 'zend-developer-tools/toolbar/solarium-requests',
+                'solarium' => 'laminas-developer-tools/toolbar/solarium-requests',
             ),
         ),
     ),

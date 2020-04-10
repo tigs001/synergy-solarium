@@ -10,7 +10,7 @@
 
 The SynergySolarium module provides ZF3 integration with [Solarium](http://www.solarium-project.org) solr client.
 
-It also integrates with [Zend Developer Tools](https://github.com/zendframework/ZendDeveloperTools).
+It also integrates with [Zend Developer Tools](https://github.com/zendframework/Laminas\DeveloperTools).
 
 Inspired by Ewgo/SolariumModule ZF2 module
 
@@ -52,9 +52,9 @@ $resultset = $client->execute($query);
 For more information see the [Solarium documentation](http://www.solarium-project.org/documentation/).
 
 ## Paginator adapter
-This module also provides an adapter for Zend\Paginator.
+This module also provides an adapter for Laminas\Paginator.
 ```php
-$paginator = new \Zend\Paginator\Paginator(
+$paginator = new \Laminas\Paginator\Paginator(
     new \SynergySolarium\Paginator\Adapter\SolariumPaginator($client, $query)
 );
 $paginator->setCurrentPageNumber($page);

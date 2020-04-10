@@ -4,7 +4,7 @@ namespace SynergySolarium\Service;
 
 use SynergySolarium\Plugin\RequestLogger;
 use Interop\Container\ContainerInterface;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 
 /**
  * Solarium request logger factory

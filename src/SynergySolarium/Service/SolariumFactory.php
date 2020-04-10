@@ -4,7 +4,7 @@ namespace SynergySolarium\Service;
 
 use Interop\Container\ContainerInterface;
 use Solarium\Client;
-use Zend\ServiceManager\Factory\FactoryInterface;
+use Laminas\ServiceManager\Factory\FactoryInterface;
 
 /**
  * Solarium client factory

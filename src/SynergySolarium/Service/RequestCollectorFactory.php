@@ -4,7 +4,7 @@ namespace SynergySolarium\Service;
 
 use SynergySolarium\Collector\RequestCollector;
 use Interop\Container\ContainerInterface;
-use Zend\ServiceManager\FActory\FactoryInterface;
+use Laminas\ServiceManager\FActory\FactoryInterface;
 
 /**
  * Zend Developer Toolbar collector for Solarium requests factory

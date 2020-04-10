@@ -2,10 +2,10 @@
 
 namespace SynergySolarium\Collector;
 
-use ZendDeveloperTools\Collector\AutoHideInterface;
-use ZendDeveloperTools\Collector\CollectorInterface;
+use Laminas\DeveloperTools\Collector\AutoHideInterface;
+use Laminas\DeveloperTools\Collector\CollectorInterface;
 use SynergySolarium\Plugin\RequestLogger;
-use Zend\Mvc\MvcEvent;
+use Laminas\Mvc\MvcEvent;
 
 /**
  * Zend Developer Toolbar collector for Solarium requests
