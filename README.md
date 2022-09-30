@@ -5,10 +5,11 @@
 [![composer.lock](https://poser.pugx.org/synergy/solarium-module/composerlock)](https://packagist.org/packages/synergy/solarium-module)
 
 # SynergySolarium module
+Do not use this.  I am just using it with an old project and do not intent maintaining it.
 
 ## About
 
-The SynergySolarium module provides ZF3 integration with [Solarium](http://www.solarium-project.org) solr client.
+The SynergySolarium module provides Laminas integration with [Solarium](http://www.solarium-project.org) solr client.
 
 It also integrates with [Zend Developer Tools](https://github.com/zendframework/Laminas\DeveloperTools).
 
